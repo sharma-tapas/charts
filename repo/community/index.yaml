@@ -618,8 +618,8 @@ entries:
     - https://github.com/portworx/helm
     tillerVersion: '>=2.7.2'
     urls:
-    - https://raw.githubusercontent.com/IBM/charts/master/repo/community/portworx-1.0.3.tgz
-    version: 1.0.3
+    - https://raw.githubusercontent.com/sharma-tapas/charts/master/repo/community/portworx-1.0.4.tgz
+    version: 1.0.4
   - created: "2019-05-06T18:57:27.265365776Z"
     description: A Helm chart for installing Portworx on Kubernetes.
     digest: 123cb34f6835fb241c4726438688d6b2ce3c978a98a537e01d5f54657da004d9
