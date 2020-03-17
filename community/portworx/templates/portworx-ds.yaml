@@ -15,7 +15,7 @@
 {{- $managementInterface := .Values.network.managementInterface | default "none" }}
 
 {{- $envVars := .Values.envVars | default "none" }}
-{{- $advOpts := .Values.advOpts | default "none" }}
+{{- $advOpts := .Values.advOpts | replace "+" "," |default "none" }}
 
 {{- $internalKVDB := .Values.internalKVDB | default false }}
 {{- $csi := .Values.csi | default false }}
